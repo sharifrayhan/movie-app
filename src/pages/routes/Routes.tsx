@@ -5,6 +5,7 @@ import HomePage from "../HomePage/HomePage"
 import Dashboard from "../Dashboard/Dashboard"
 import DashboardHome from "../Dashboard/DashboardHome/DashboardHome"
 import Categories from "../Dashboard/Categories/Categories"
+import Register from "../Register/Register"
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
             {
                 element: <HomePage/>,
                 path:"/",
+            },
+            {
+                element: <Register/>,
+                path:"/SignIn",
             }
         ]
     },

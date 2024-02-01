@@ -12,7 +12,7 @@ const Dashboard: React.FC = () => {
     const [currentlySelected, setCurrentlySelected]= useState<number | null>(null)
 
   return (
-    <div className="flex mr-5">
+    <div className="flex gap-10">
       <div className=" w-[190px] h-screen bg-transparent p-4">
         <div className=" flex items-center gap-3">
             <img src={DashboardLogo} alt="" />
